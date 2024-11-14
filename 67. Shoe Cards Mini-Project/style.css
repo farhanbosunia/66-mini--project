@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgba(241, 239, 237, 0.567);
+
+}
+.container{
+max-width: 600px;
+margin: 100 auto;
+padding: 0 20px;
+}
+
+/*card*/
+.card{
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    
+
+}
+
+.card h2{
+    font-size: 27px;
+    margin-bottom: 20px;
+
+}
+
+.card p{
+font-size: 18px;
+font-weight: 500px;
+color: #242523;
+margin-bottom: 30px;
+}
+
+/*heading colour*/
+.card-sporty h2{
+    color: red;
+}
+.card-casual h2{
+    color: rgb(41, 38, 203);
+}
+.card-formal h2{
+    color: rgb(153, 58, 34);
+}
+.card a{
+    text-decoration: none;
+    background-color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card a:hover{
+opacity: 0.8;
+
+}
+
+/*link colour*/
+
+.card-sporty a{
+    background-color: red;
+}
+.card-casual a{
+    background-color: rgb(41, 38, 203);
+}
+.card-formal a{
+    background-color: rgb(153, 58, 34);
+}
+
+/*background image*/
+.card-sporty{
+   background: url('bg22.png') no-repeat center right  ; 
+   background-size: 200px;
+   background-color: rgb(249, 254, 252);
+
+}
+.card-casual{
+    background: url('bg.png') no-repeat center right  ; 
+    background-size: 200px;
+    background-color: rgb(249, 254, 252);
+ }
+ .card-formal{
+    background: url('bg3.png') no-repeat center right  ; 
+    background-size: 200px;
+    background-color: rgb(249, 254, 252);
+ }

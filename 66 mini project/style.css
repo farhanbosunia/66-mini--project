@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-color:#ffffff;
+    font-family: 'poppins', 'sans-serif'
+    
+}
+
+.container {
+    width: 400px;
+    margin: 150px auto ;
+
+}
+
+.card{
+    background-color: rgba(59, 90, 71, 0.745);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 60px ;
+    box-shadow: 4px 5px 6px rgb(0,0,1,4)
+}
+
+.card h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.card p {
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+
+.card .form-group {
+    margin-bottom: 20px;
+}
+
+.card input[type='text'] {
+
+    width: 100%;
+    padding: 10px 10px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.card input:hover[type='text'] {
+
+    color: #ffffff;
+    background: rgb(58,169,180);
+    background: rgb(128,180,58);
+    background: linear-gradient(90deg, rgba(128,180,58,1) 0%, rgba(230,183,51,0.9024859943977591) 66%, rgba(252,176,69,1) 100%);
+}
+
+
+
+
+.card button{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: large;
+    background-color: rgb(236, 90, 11);
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.card button:hover {
+    background: rgb(128,180,58);
+    background: linear-gradient(90deg, rgba(128,180,58,1) 0%, rgba(230,183,51,0.9024859943977591) 66%, rgba(252,176,69,1) 100%);
+    border-radius: 10px;
+}
+
