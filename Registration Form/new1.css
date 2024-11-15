@@ -23,11 +23,15 @@
 }
 
 .class-4 {
-    background-color: rgba(236, 236, 236, 0.881);
+
+     background-color: rgba(236, 236, 236, 0.881);
+     color: rgb(18, 17, 17);
      width: 100px;
      border: 5px solid rgba(222, 241, 222, 0.632);
-     padding: 50px;
-     margin: 10px;
+     padding: 40px;
+     margin: 15px;
+     text-align: start;
+  
 
 }
 
